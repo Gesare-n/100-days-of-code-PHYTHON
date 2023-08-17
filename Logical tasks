@@ -1,0 +1,32 @@
+#Task 01
+#p for True and Q for False
+#Create the first variables
+
+p=True
+q=False
+
+#Creating the first equation part
+var_a = p or q
+
+#create the second part of the equation
+var_b =(not q) and (not p)
+
+#Combine the equation 
+ans_1= var_a;(not var_b)
+print(ans_1)
+
+
+#Task 02
+#This is the second equation
+#Create my variables 
+# P for T and Q for F
+
+P=True 
+q=False
+
+#First part of the equation 
+var_1 = p or q 
+
+#second part of the euation 
+var_2 =p or (not q)
+
